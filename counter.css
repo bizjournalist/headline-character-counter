@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  font-family: 'Merriweather', Georgia, serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #343a40;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 800px;
+  /*margin: 0 auto;*/
+  padding: 20px;
+  text-align: left; /* Align left */
+  }
+
+/* @media (max-width: 768px) {
+  #textBox, #coloredTextDisplay {
+    width: 80%;
+  }
+} */
+
+/* Styles for coloredTextDisplay */
+#coloredTextDisplay {
+  width: 100%;
+  padding: 10px;
+  border: none; /* Removed border */
+  border-radius: 8px;
+  box-shadow: none; /* Removed box-shadow */
+  font-size: 20px; /* Increased font size */
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  min-height: 50px;
+  white-space: pre-wrap;
+}
+
+/* Styles for textBox */
+#textBox {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  background-color: #ffffff; /* Different background color */
+}
+
+/* Character count styles */
+.counter {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  /* margin-top: 10px; /* Added margin-top to separate it from the textarea */
+}
+
+/* Colored text backgrounds */
+.green-bg {
+  background-color: #d4edda;
+}
+
+.yellow-bg {
+  background-color: #fff3cd;
+}
+
+.red-bg {
+  background-color: #f8d7da;
+}
+
+/* Button styles */
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
